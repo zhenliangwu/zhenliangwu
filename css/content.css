@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    widows: 100%;
+    min-width: 1200px;
+}
+
+/* banner */
+
+.bannerbg {
+    width: 100%;
+    height: 200px;
+    background: url(../img/bn-bg.jpg) no-repeat center center;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 2em auto;
+}
+
+.wrapper h1{
+    color:#B90000;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+h3{
+    color:red;
+}
+.passage{
+    padding: 0 2em;
+    line-height: 2em;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+.wrapper::after{
+    border-top: 2px solid gray;
+    content: "版权所有 经济开发研究院 CopyRight 2020";
+    line-height: 2em;
+    font-size: 12px;
+    display: block;
+    margin-top: 4em;
+    text-align: center;
+}
+em{
+    font-style: normal;
+    font-size:larger;
+    font-weight: bolder;
+    color: #B90000;
+}
+
+.table {
+    width: 90%;
+    margin: 1em auto;
+    text-align: center;
+    border: 1px solid #162966;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid #162966;
+}
+
+.table-blue td {
+    background-color: #2276da;
+    color: white;
+}
+
+h4{
+    color: #f72c11;
+}
